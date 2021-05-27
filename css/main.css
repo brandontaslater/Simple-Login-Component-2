@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  height: 100%;
+}
+
+.multi-color {
+  color: rgb(254, 1, 154);
+}
+
+#bg {
+  background: url("../images/whole-wavy.jpg") no-repeat;
+  overflow: auto;
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 0px 0px
+}
+
+#bg .content {
+  background: rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: 0px 0px;
+  padding: 15px 15px;
+}
+
+#bg .content h1 {
+  margin: 0px 0px 125px 25px;
+  padding: 0px 0px;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+#bg .content h2 {
+  margin: 25px 25px;
+  padding: 0px 0px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.card {
+  margin: 75px 0px 0px 0px;
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .card-container {
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .card-container form {
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .card-container form label {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0px 0px 0px 0px;
+}
+
+.card .card-container form #email,
+.card .card-container form #password {
+  border: 0px;
+  border-bottom: 2px rgb(254, 1, 154) solid;
+  background: rgba(0, 0, 0, 0);
+  height: 35px;
+  width: 100%;
+  color: white;
+  font-size: 2.25rem;
+  margin: 0px 0px 15px 0px;
+}
+
+.card .card-container form #email::placeholder,
+.card .card-container form #password::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+  font-size: 1.15rem;
+  font-weight: 450;
+}
+
+.card .card-container form #email::-ms-input-placeholder,
+.card .card-container form #password::-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(254, 1, 154);
+  opacity: 1; /* Firefox */
+  font-size: 1.15rem;
+  font-weight: 450;
+}
+
+.card .card-container form #email::-ms-input-placeholder,
+.card .card-container form #password::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(254, 1, 154);
+  opacity: 1; /* Firefox */
+  font-size: 1.15rem;
+  font-weight: 450;
+}
+
+.card .card-container form #email:focus,
+.card .card-container form #password:focus {
+  outline: none;
+
+  border-bottom: 3px rgb(254, 1, 154) solid;
+}
+
+.card .card-container form #submit-btn {
+  margin: 15px 0px 15px 125px;
+  padding: 0px;
+  background: rgb(254, 1, 154);
+  text-decoration: none;
+  border: none;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card .card-container form #submit-btn:hover {
+  background: rgb(254, 1, 154, 0.75);
+}
+
+.card .card-container .options {
+  margin: 50px 50px;
+  padding: 0px 0px;
+}
+
+.card .card-container .options a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.card .card-container .options a:hover {
+  border-bottom: white 1px solid;
+}

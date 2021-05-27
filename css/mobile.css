@@ -1,0 +1,678 @@
+/* Scren sizes greater than 199px & less than 320px */
+@media (min-width: 200px) {
+  /* galaxy fold */
+  .multi-color {
+    color: red;
+  }
+
+  #bg {
+    padding: 15px;
+  }
+
+  #bg .content {
+    max-width: 200px;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 15px 15px;
+  }
+
+  #bg .content h1 {
+    margin: 0px 0px 75px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  #bg .content h2 {
+    margin: 0px 25px 50px 25px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .card {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* UNEDITED */
+  .card .card-container form label {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .card .card-container form #email,
+  .card .card-container form #password {
+    border: 0px;
+    border-bottom: 2px rgb(254, 1, 154) solid;
+    background: rgba(0, 0, 0, 0);
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 1.15rem;
+    margin: 0px 0px 7.5px 0px;
+  }
+
+  .card .card-container form #email::placeholder,
+  .card .card-container form #password::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #submit-btn {
+    margin: 25px 0px 0px 40px;
+    padding: 0px;
+    background: rgb(254, 1, 154);
+    text-decoration: none;
+    border: none;
+    width: 50%;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .card .card-container .options {
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px;
+  }
+
+  .card .card-container .options a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.5rem;
+  }
+}
+
+/* Screen sizes greater than 319px & less than 481px */
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .multi-color {
+    color: silver;
+  }
+
+  #bg {
+    padding: 50px;
+  }
+
+  #bg .content {
+    max-width: 320px;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 15px 15px;
+  }
+
+  #bg .content h1 {
+    margin: 0px 0px 75px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  #bg .content h2 {
+    margin: 0px 25px 50px 25px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .card {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* UNEDITED */
+  .card .card-container form label {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .card .card-container form #email,
+  .card .card-container form #password {
+    border: 0px;
+    border-bottom: 2px rgb(254, 1, 154) solid;
+    background: rgba(0, 0, 0, 0);
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 1.15rem;
+    margin: 0px 0px 7.5px 0px;
+  }
+
+  .card .card-container form #email::placeholder,
+  .card .card-container form #password::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #submit-btn {
+    margin: 25px 0px 0px 60px;
+    padding: 0px;
+    background: rgb(254, 1, 154);
+    text-decoration: none;
+    border: none;
+    width: 50%;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .card .card-container .options {
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px;
+  }
+
+  .card .card-container .options a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.65rem;
+  }
+}
+
+/* Screen sizes greater than 480px & less than 641px */
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .multi-color {
+    color: gold;
+  }
+
+  #bg {
+    padding: 25px;
+    margin: 0px;
+  }
+
+  #bg .content {
+    max-width: 320px;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 15px 15px;
+  }
+
+  #bg .content h1 {
+    margin: 0px 0px 75px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  #bg .content h2 {
+    margin: 0px 25px 50px 25px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .card {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* UNEDITED */
+  .card .card-container form label {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .card .card-container form #email,
+  .card .card-container form #password {
+    border: 0px;
+    border-bottom: 2px rgb(254, 1, 154) solid;
+    background: rgba(0, 0, 0, 0);
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 1.15rem;
+    margin: 0px 0px 7.5px 0px;
+  }
+
+  .card .card-container form #email::placeholder,
+  .card .card-container form #password::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #submit-btn {
+    margin: 25px 0px 0px 60px;
+    padding: 0px;
+    background: rgb(254, 1, 154);
+    text-decoration: none;
+    border: none;
+    width: 50%;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .card .card-container .options {
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px;
+  }
+
+  .card .card-container .options a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.65rem;
+  }
+}
+
+/* Screen sizes greater than 640px & less than 961px */
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .multi-color {
+    color: aqua;
+  }
+
+  #bg {
+    padding: 30px 15px 30px 15px;
+  }
+
+  #bg .content {
+    max-width: 641px;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 15px 15px;
+  }
+
+  #bg .content h1 {
+    margin: 0px 0px 100px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  #bg .content h2 {
+    margin: 0px 25px 75px 25px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 2.75rem;
+    line-height: 50px;
+  }
+
+  .card {
+    margin: 75px 0px 0px 0px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card .card-container form label {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0px 0px 5px 0px;
+  }
+
+  .card .card-container form #email,
+  .card .card-container form #password {
+    border: 0px;
+    border-bottom: 2px rgb(254, 1, 154) solid;
+    background: rgba(0, 0, 0, 0);
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 2.25rem;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .card .card-container form #email::placeholder,
+  .card .card-container form #password::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #submit-btn {
+    margin: 50px 0px 0px 70px;
+    padding: 0px;
+    background: rgb(254, 1, 154);
+    text-decoration: none;
+    border: none;
+    width: 300px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .card .card-container .options {
+    margin: 75px 0px 0px 0px;
+    padding: 0px 0px;
+  }
+
+  .card .card-container .options a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+}
+
+/* Screen sizes greater than 960px & less than 1025px */
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .multi-color {
+    color: blueviolet;
+  }
+
+  #bg {
+    padding: 30px 15px 30px 15px;
+  }
+
+  #bg .content {
+    max-width: 641px;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 15px 15px;
+  }
+
+  #bg .content h1 {
+    margin: 0px 0px 100px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  #bg .content h2 {
+    margin: 0px 25px 75px 25px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 2.75rem;
+    line-height: 50px;
+  }
+
+  .card {
+    margin: 75px 0px 0px 0px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card .card-container form label {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0px 0px 5px 0px;
+  }
+
+  .card .card-container form #email,
+  .card .card-container form #password {
+    border: 0px;
+    border-bottom: 2px rgb(254, 1, 154) solid;
+    background: rgba(0, 0, 0, 0);
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 2.25rem;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .card .card-container form #email::placeholder,
+  .card .card-container form #password::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #submit-btn {
+    margin: 50px 0px 0px 70px;
+    padding: 0px;
+    background: rgb(254, 1, 154);
+    text-decoration: none;
+    border: none;
+    width: 300px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .card .card-container .options {
+    margin: 75px 0px 0px 0px;
+    padding: 0px 0px;
+  }
+
+  .card .card-container .options a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+}
+
+/* Screen sizes greater than 1024px & less than 1281px */
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .multi-color {
+    color: greenyellow;
+  }
+
+  #bg {
+    padding: 30px 15px 30px 15px;
+  }
+
+  #bg .content {
+    max-width: 641px;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 15px 15px;
+  }
+
+  #bg .content h1 {
+    margin: 0px 0px 100px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  #bg .content h2 {
+    margin: 0px 25px 75px 25px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 2.75rem;
+    line-height: 50px;
+  }
+
+  .card {
+    margin: 75px 0px 0px 0px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card .card-container form label {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0px 0px 5px 0px;
+  }
+
+  .card .card-container form #email,
+  .card .card-container form #password {
+    border: 0px;
+    border-bottom: 2px rgb(254, 1, 154) solid;
+    background: rgba(0, 0, 0, 0);
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 2.25rem;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .card .card-container form #email::placeholder,
+  .card .card-container form #password::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #email::-ms-input-placeholder,
+  .card .card-container form #password::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(254, 1, 154);
+    opacity: 0.85; /* Firefox */
+    font-size: 0.85rem;
+    font-weight: 450;
+  }
+
+  .card .card-container form #submit-btn {
+    margin: 50px 0px 0px 70px;
+    padding: 0px;
+    background: rgb(254, 1, 154);
+    text-decoration: none;
+    border: none;
+    width: 300px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .card .card-container .options {
+    margin: 75px 0px 0px 0px;
+    padding: 0px 0px;
+  }
+
+  .card .card-container .options a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+}
