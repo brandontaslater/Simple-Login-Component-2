@@ -27,7 +27,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0px 0px 0px 0px
+  padding: 60px 0px 60px 0px;
 }
 
 #bg .content {
@@ -37,6 +37,7 @@ body {
   height: auto;
   margin: 0px 0px;
   padding: 15px 15px;
+  border-radius: 5px;
 }
 
 #bg .content h1 {
@@ -74,6 +75,20 @@ body {
   flex-direction: column;
 }
 
+/* NEW <-----*/
+.card .card-container form .form-group {
+  display: flex;
+  gap: 12px;
+}
+
+.card .card-container form .form-group .form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+/* NEW ----->*/
+
 .card .card-container form label {
   color: white;
   font-size: 0.8rem;
@@ -81,6 +96,8 @@ body {
   margin: 0px 0px 0px 0px;
 }
 
+.card .card-container form #f-name,
+.card .card-container form #l-name,
 .card .card-container form #email,
 .card .card-container form #password {
   border: 0px;
@@ -93,6 +110,13 @@ body {
   margin: 0px 0px 15px 0px;
 }
 
+.card .card-container form #f-name,
+.card .card-container form #l-name {
+  width: 220px;
+}
+
+.card .card-container form #f-name::placeholder,
+.card .card-container form #l-name::placeholder,
 .card .card-container form #email::placeholder,
 .card .card-container form #password::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -102,6 +126,8 @@ body {
   font-weight: 450;
 }
 
+.card .card-container form #f-name::-ms-input-placeholder,
+.card .card-container form #l-name::-ms-input-placeholder,
 .card .card-container form #email::-ms-input-placeholder,
 .card .card-container form #password::-ms-input-placeholder {
   /* Internet Explorer 10-11 */
@@ -111,6 +137,8 @@ body {
   font-weight: 450;
 }
 
+.card .card-container form #f-name::-ms-input-placeholder,
+.card .card-container form #l-name::-ms-input-placeholder,
 .card .card-container form #email::-ms-input-placeholder,
 .card .card-container form #password::-ms-input-placeholder {
   /* Microsoft Edge */
@@ -120,10 +148,11 @@ body {
   font-weight: 450;
 }
 
+.card .card-container form #f-name:focus,
+.card .card-container form #l-name:focus,
 .card .card-container form #email:focus,
 .card .card-container form #password:focus {
   outline: none;
-
   border-bottom: 3px rgb(254, 1, 154) solid;
 }
 
