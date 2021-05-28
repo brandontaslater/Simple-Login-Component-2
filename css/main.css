@@ -12,6 +12,12 @@ body {
   height: 100%;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 .multi-color {
   color: rgb(254, 1, 154);
 }
